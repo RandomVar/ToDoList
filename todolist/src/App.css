@@ -1,0 +1,145 @@
+.App{
+	text-align: center;
+	margin: 50px 20%;
+	padding: 20px 0;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.dialog {
+	text-align: left;
+	margin: 0 5%;
+	padding: 30px 0;
+	width: 550px;
+}
+
+
+
+h3 {
+	display: inline-block;
+	margin-right:55px; 
+	text-align: center;
+}
+.dialog label
+{
+	margin-right: 15px;
+	text-align: center;
+}
+input[type="number"]
+{
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+	width: 100px;
+}
+input[type="text"] {
+	line-height: 40px;
+	float: right;
+	width: 90%;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	box-sizing: border-box;
+	padding: 0 5px;
+	border: 1px #ccc solid;
+	outline: none;
+	box-shadow: 0 0 10px #ccc;
+  margin: 0 50px;
+}
+
+input[type="button"] {
+	border: none;
+	margin:30px 10%; 
+	background-color: #A1EAFB;
+	height: 40px;
+	width: 110px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 5px;
+	float: right;
+}
+
+ul {
+	text-align: left;
+	margin: 20px 5%;
+	border-radius: 5px;
+	border: 1px #bbb solid;
+	padding:0;
+}
+
+ul li {
+	list-style: none;
+	line-height: 50px;
+	border-bottom: 1px #bbb solid;
+	padding: 0 20px;
+	margin: 0;
+}
+
+ul li:first-child {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+ul li:last-child {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+ul li:hover > .delete-btn {
+	display: block;
+}
+
+.delete-btn {
+	color: #ccc;
+	float: right;
+	cursor: pointer;
+	display: none;
+	font-size: 0.8em;
+	margin:0 10px;
+}
+ul li:hover > .update-btn {
+	display: block;
+}
+
+.update-btn {
+	color: #ccc;
+	float: right;
+	cursor: pointer;
+	display: none;
+	font-size: 0.8em;
+}
+.check-btn {
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	border: 1px #ccc solid;
+	border-style: outset;
+	border-radius: 5px;
+	margin-right: 20px; 
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	border: 0;
+	color: #fff;
+	background-color: #A1EAFB;
+}
+.update 
+{
+	width: 500px;
+	padding:0 20px;
+	position: fixed;
+	left:50%;
+	top:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: rgba(129, 127, 127, 0.5)
+}
+@media screen and (max-width: 767px) {
+	.container {
+		margin: 20px 5%;
+	}
+
+	h3 {
+		margin-left: 0;
+	}
+}
